@@ -1,0 +1,29 @@
+{
+	"expo": {
+		"name": "Ascii Faces",
+		"slug": "the-asciifacesapp-project",
+		"privacy": "public",
+		"sdkVersion": "32.0.0",
+		"platforms": [ "ios", "android" ],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#0A1042"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": [ "**/*" ],
+		"android": {
+			"package": "com.asciifaces.app"
+		},
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.asciifaces.app"
+		},
+		"description": "A simple React Native powered app for ASCII image art to make your conversations interesting."
+	}
+}
